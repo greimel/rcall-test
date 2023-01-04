@@ -17,6 +17,7 @@ jobs:
               - '1.6'
               - '1' # expands to lates 1.x.y release
               - nightly
+              - '~1.9.0-0' # temporarily test on beta and rc version of 1.9
             os: 
               - ubuntu-latest
               - windows-latest
